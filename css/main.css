@@ -552,7 +552,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   font-size: 16px;
   line-height: 1.625;
   color: #787878;
@@ -1072,7 +1072,7 @@ textarea.custom-input {
   font-weight: 500;
   background-color: #c9b851;
   cursor: pointer;
-  transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out !important;
 
 }
 
@@ -1122,7 +1122,7 @@ textarea.custom-input {
   width: 100%;
   padding: 15px 16px;
   border: solid 1px #c9c9c9;
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   font-size: 16px;
   line-height: 1;
   color: #787878;
@@ -1167,7 +1167,7 @@ textarea.custom-input {
 /* 1.6 Heading */
 .heading {
   margin: 0;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 32px;
   line-height: 1.25;
   color: white;
@@ -1207,7 +1207,7 @@ textarea.custom-input {
   line-height: 1.5;
   color: #c9b851;
   font-weight: 500;
-  letter-spacing: 0.1em;
+
   text-transform: uppercase;
 }
 
@@ -1571,7 +1571,7 @@ textarea.custom-input {
   font-size: 28px;
   line-height: 1.21;
   color: white;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-weight: 700;
 }
 
@@ -1708,7 +1708,7 @@ textarea.custom-input {
 .more {
   display: flex;
   align-items: center;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 16px;
   line-height: 1.3125;
   color: #a1a1a1;
@@ -1767,7 +1767,7 @@ textarea.custom-input {
 .filter__item {
   margin-right: 20px;
   padding: 0;
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   font-size: 16px;
   line-height: 1.3125;
   color: white;
@@ -2418,6 +2418,7 @@ textarea.custom-input {
 .header--fixed .header__inner {
   padding-top: 15px;
   padding-bottom: 15px;
+  justify-content: space-between;
 }
 
 @media (min-width: 1560px) {
@@ -2845,7 +2846,7 @@ textarea.custom-input {
 
 .timer__digit p {
   width: 30px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 40px;
   line-height: 40px;
   font-weight: bold;
@@ -2905,7 +2906,7 @@ textarea.custom-input {
 }
 
 .page-404__num {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 65px;
   line-height: 65px;
   color: white;
@@ -2922,7 +2923,7 @@ textarea.custom-input {
 }
 
 .page-404__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 18px;
   line-height: 24px;
   color: white;
@@ -3065,7 +3066,7 @@ textarea.custom-input {
 }
 
 .coming-soon__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 36px;
   line-height: 46px;
   font-weight: bold;
@@ -3106,7 +3107,7 @@ textarea.custom-input {
 }
 
 .coming-soon__timer-title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 35px;
   font-weight: bold;
@@ -3198,7 +3199,7 @@ textarea.custom-input {
 
 .slide-tab__number {
   margin-right: 8px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 24px;
   line-height: 1;
   color: #787878;
@@ -3223,7 +3224,7 @@ textarea.custom-input {
 }
 
 .slide-tab__title {
-  font-family: Noto Kufi Arabic !important;
+  font-family: "Noto Kufi Arabic";
 	direction: rtl !important;
 	font-size: 18px;
   max-width: 110px;
@@ -3447,7 +3448,7 @@ textarea.custom-input {
 
 .card__send-text {
   max-width: 100px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 1.2;
   color: white;
@@ -3507,7 +3508,7 @@ textarea.custom-input {
   font-size: 28px;
   line-height: 1.4;
   color: #ffffff;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
 }
 
 @media (min-width: 1200px) {
@@ -3821,7 +3822,7 @@ textarea.custom-input {
   font-size: 25px;
   line-height: 1.2;
   color: white;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-weight: 700;
 }
 
@@ -3934,7 +3935,7 @@ textarea.custom-input {
   font-size: 25px;
   line-height: 1.4;
   color: white;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-weight: 700;
 }
 
@@ -4015,7 +4016,6 @@ textarea.custom-input {
 }
 
 .about-section__pseudoheading {
-  max-width: 290px;
   margin-bottom: 24px;
 }
 
@@ -4033,7 +4033,6 @@ textarea.custom-input {
 
 @media (min-width: 1200px) {
   .about-section__pseudoheading {
-    max-width: 440px;
     margin-bottom: 65px;
   }
 }
@@ -4073,7 +4072,7 @@ textarea.custom-input {
   max-width: 330px;
   margin: 0;
   padding: 0 0 0 100px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-weight: 400;
   font-style: italic;
   color: white;
@@ -4368,7 +4367,7 @@ textarea.custom-input {
   font-size: 16px;
   line-height: 1.625;
   color: #787878;
-  font-family: "Swansea", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   text-transform: uppercase;
   transition: color 0.3s ease;
 }
@@ -4645,7 +4644,7 @@ textarea.custom-input {
 
 /* 4.14 Partners block */
 .reviews-carousel__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 35px;
@@ -5115,7 +5114,7 @@ textarea.custom-input {
 
 .project-meta__item-title {
   margin-bottom: 20px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 16px;
   line-height: 1;
   color: white;
@@ -5152,7 +5151,7 @@ textarea.custom-input {
 
 .project-designer__title {
   margin-bottom: 24px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 2;
   color: white;
@@ -5219,7 +5218,7 @@ textarea.custom-input {
   position: absolute;
   top: 0;
   right: 0;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 36px;
   line-height: 1;
   color: #c9b851;
@@ -5246,7 +5245,7 @@ textarea.custom-input {
 
 .steps__item-title {
   margin: 0 0 16px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 1;
   color: white;
@@ -5421,7 +5420,7 @@ textarea.custom-input {
 
 .services-provided__column-heading {
   margin: 0 0 30px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 1;
   color: white;
@@ -5566,7 +5565,7 @@ textarea.custom-input {
 
 .services__left p {
   margin: 0;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 18px;
   line-height: 28px;
   font-weight: bold;
@@ -5594,7 +5593,7 @@ textarea.custom-input {
 
 .services__digit {
   margin-right: 48px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 80px;
   line-height: 90px;
   font-weight: bold;
@@ -5636,7 +5635,7 @@ textarea.custom-input {
 }
 
 .services__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 35px;
   line-height: 40px;
   font-weight: bold;
@@ -5693,7 +5692,7 @@ textarea.custom-input {
 }
 
 .services__item-title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -5839,7 +5838,7 @@ textarea.custom-input {
 }
 
 .sidebar__block > p {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 18px;
   line-height: 21.76px;
   font-weight: bold;
@@ -5856,7 +5855,7 @@ textarea.custom-input {
   transform: translateX(-50%);
   background-color: #f1f1f1;
   border-color: #f1f1f1;
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   transition: background-color 0.3s ease;
 }
 
@@ -5911,7 +5910,7 @@ textarea.custom-input {
 
 .sidebar__related-post-content .title {
   margin-bottom: 5px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
@@ -5970,7 +5969,7 @@ textarea.custom-input {
   margin-bottom: 10px;
   padding: 3px 15px;
   border: 1px solid #d3d3d3;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 12px;
   color: white;
   text-transform: uppercase;
@@ -6154,7 +6153,7 @@ textarea.custom-input {
 
 .post-sb-page__main-pic--inner .post-sb-page__heading {
   margin: 0;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 40px;
   line-height: 44px;
   font-weight: 700;
@@ -6238,7 +6237,7 @@ textarea.custom-input {
 }
 
 .post-sb__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 26px;
   line-height: 32px;
   font-weight: bold;
@@ -6266,7 +6265,7 @@ textarea.custom-input {
 }
 
 .post-sb__subtitle {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 23px;
   line-height: 30px;
   font-weight: bold;
@@ -6559,7 +6558,7 @@ textarea.custom-input {
 }
 
 .post-related__title span {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 26px;
   line-height: 32px;
   font-weight: bold;
@@ -6577,7 +6576,7 @@ textarea.custom-input {
   display: flex;
   align-items: center;
   margin-top: 10px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 16px;
   line-height: 21px;
   font-weight: 600;
@@ -6628,7 +6627,7 @@ textarea.custom-input {
 }
 
 .comment__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 24px;
   line-height: 36px;
   font-weight: bold;
@@ -6704,7 +6703,7 @@ textarea.custom-input {
 }
 
 .comment .comment-item__name {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 16px;
   line-height: 19.34px;
   font-weight: bold;
@@ -6781,7 +6780,7 @@ textarea.custom-input {
 }
 
 .comment-form__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 24px;
   line-height: 36px;
   font-weight: bold;
@@ -6806,7 +6805,7 @@ textarea.custom-input {
   border: 1px solid #d4d4d4;
   background-color: #ffffff;
   box-sizing: border-box;
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   transition: border-color 0.3s ease;
 }
 
@@ -6865,7 +6864,7 @@ textarea.custom-input {
   padding: 17px 44px;
   margin-top: 30px;
   border-radius: 0;
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6914,7 +6913,7 @@ textarea.custom-input {
 }
 
 .quote p {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
@@ -6953,7 +6952,7 @@ textarea.custom-input {
   counter-increment: services;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card--reverse .service-card__inner {
     flex-direction: row-reverse;
   }
@@ -6966,7 +6965,7 @@ textarea.custom-input {
   border-right: solid 4px #c9b851;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card--reverse .service-card__left::after {
     right: 32px;
   }
@@ -6986,14 +6985,14 @@ textarea.custom-input {
   right: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card--reverse .service-card__detail {
     border-right: none;
     border-left: solid 4px #161616;
   }
 }
 
-@media (min-width: 768px) and (min-width: 992px) {
+@media (min-width: 992px) {
   .service-card--reverse .service-card__detail:hover, .service-card--reverse .service-card__detail:focus {
     border-color: #c9b851;
   }
@@ -7004,7 +7003,7 @@ textarea.custom-input {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card__inner {
     flex-direction: row;
     padding-bottom: 150px;
@@ -7027,7 +7026,7 @@ textarea.custom-input {
   position: absolute;
   left: 0;
   bottom: 0;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 48px;
   line-height: 1;
   color: #c9b851;
@@ -7036,14 +7035,14 @@ textarea.custom-input {
   transform-origin: 33% 50%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card__left::after {
     left: 24px;
     transform: rotate(0);
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card__left {
     padding: 32px;
   }
@@ -7089,7 +7088,7 @@ textarea.custom-input {
   order: -1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card__right {
     position: relative;
     width: 60%;
@@ -7113,13 +7112,16 @@ textarea.custom-input {
 
 .service-card__detail {
   width: 80%;
+  margin:auto;
   max-width: 394px;
   padding: 20px 0;
+  text-align: center;
   transition: border-color 0.3s ease;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-card__detail {
+    text-align: right;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -7149,7 +7151,7 @@ textarea.custom-input {
 
 .service-card__heading {
   margin: 0 0 24px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 1.4;
   color: white;
@@ -7221,7 +7223,7 @@ textarea.custom-input {
 
 .single-service-block h2 {
   margin: 0 0 32px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 25px;
   line-height: 1.4;
   color: white;
@@ -7283,7 +7285,7 @@ textarea.custom-input {
 
 .contact-block__heading {
   margin: 0 0 32px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 32px;
   line-height: 1.4;
   color: white;
@@ -7291,7 +7293,7 @@ textarea.custom-input {
 }
 
 .contact-block__heading span {
-  font-family: "Swansea", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
 }
 
 .contact-block__address {
@@ -7320,7 +7322,7 @@ textarea.custom-input {
 }
 
 .contact-block__phone a {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 32px;
   line-height: 1.4;
   color: white;
@@ -7406,7 +7408,7 @@ textarea.custom-input {
   position: absolute;
   top: 0;
   left: 15px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 72px;
   line-height: 1;
   color: #c9b851;
@@ -7714,7 +7716,7 @@ textarea.custom-input {
 }
 
 .main-slider .tparrows::before {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 20px;
   line-height: 1.2;
   color: #ffffff;
@@ -8194,7 +8196,7 @@ textarea.custom-input {
 
 @media (min-width: 1200px) {
   .article--news .article__filter .filter__item {
-    font-family: "Poppins", "Arial", sans-serif;
+    font-family: "Noto Kufi Arabic";
     margin-right: 53px;
   }
 }
@@ -8221,7 +8223,7 @@ textarea.custom-input {
 }
 
 .welcome__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 40px;
   line-height: 45px;
   font-weight: bold;
@@ -8400,7 +8402,7 @@ textarea.custom-input {
 }
 
 .parallax__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-weight: bold;
   font-size: 20px;
 }
@@ -8483,7 +8485,7 @@ textarea.custom-input {
 .parallax__counter {
   padding-top: 10px;
   padding-right: 10px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
 }
 
 .parallax__counter .current {
@@ -8606,7 +8608,7 @@ textarea.custom-input {
 
 .services__left p {
   margin: 0;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 18px;
   line-height: 28px;
   font-weight: bold;
@@ -8634,7 +8636,7 @@ textarea.custom-input {
 
 .services__digit {
   margin-right: 48px;
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 80px;
   line-height: 90px;
   font-weight: bold;
@@ -8676,7 +8678,7 @@ textarea.custom-input {
 }
 
 .services__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 35px;
   line-height: 40px;
   font-weight: bold;
@@ -8733,7 +8735,7 @@ textarea.custom-input {
 }
 
 .services__item-title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -8927,7 +8929,7 @@ textarea.custom-input {
 }
 
 .slider-parallax__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 40px;
   line-height: 45px;
   font-weight: bold;
@@ -9137,7 +9139,7 @@ textarea.custom-input {
 }
 
 .contact-parallax__title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 45px;
   line-height: 45px;
   font-weight: bold;
@@ -9187,7 +9189,7 @@ textarea.custom-input {
 }
 
 .contact-parallax__address, .contact-parallax__phone {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
@@ -9243,7 +9245,7 @@ textarea.custom-input {
 }
 
 .contact-parallax__form-title {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 26px;
   line-height: 34px;
   font-weight: bold;
@@ -9313,7 +9315,7 @@ textarea.custom-input {
 
 .contact-parallax__form input::placeholder,
 .contact-parallax__form textarea::placeholder {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family:"Noto Kufi Arabic";
   font-size: 16px;
   color: #ffffff;
   opacity: 0.6;
@@ -9349,7 +9351,7 @@ textarea.custom-input {
 }
 
 .contact-parallax__submit {
-  font-family: "Poppins", "Arial", sans-serif;
+  font-family: "Noto Kufi Arabic";
   font-size: 16px;
   font-weight: 500;
   margin-top: 55px;
