@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/revolution.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/lightcase.css">
+
   <!-- Arabic Font -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200;500&display=swap" rel="stylesheet">
   
@@ -421,77 +423,28 @@
             </a>-->
           </header>
           <div class="latest-projects__inner container" data-aos="fade">
-            <div class="row ">
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                  <a class="m-1" href="img/2.png" data-rel="lightcase:my-slideshow">
+                      <img class="img-thumbnail" src="img/2.png" alt="Basic Example 1" />
                   </a>
-  
-                </div>
-                
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                  <a class="m-1" href="img/2.png" data-rel="lightcase:my-slideshow">
+                      <img class="img-thumbnail" src="img/2.png" alt="Basic Example 2" />
                   </a>
-  
-                </div>
-                
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                  <a class="m-1" href="img/2.png" data-rel="lightcase:my-slideshow">
+                      <img class="img-thumbnail" src="img/2.png" alt="Basic Example 3" />
                   </a>
-  
-                </div>
-                
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                  <a class="m-1" href="img/2.png" data-rel="lightcase:my-slideshow">
+                      <img class="img-thumbnail" src="img/2.png" alt="Basic Example 4" />
                   </a>
-  
-                </div>
-                
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
-                  </a>
-  
-                </div>
-                
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
-                  </a>
-  
-                </div>
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
-                  </a>
-  
-                </div>
-                <div class="col-lg-3 col-md-6 col-12 mb-4">
-                  <a class="card swiper-slide __js_building" >
-                    <div class="card__image">
-                      <img src="img/2.png" srcset="img/picture/latest-projects/1@2x.jpg 2x" width="430" height="573" alt="">
-                    </div>
-                  </a>
-  
-                </div>
-                
+              </div>
+              
             </div>
           </div>
         </section>
@@ -585,6 +538,10 @@
   <script src="js/packery-mode.pkgd.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/animsition.min.js"></script>
+  <script src="js/lightcase.js"></script>
+<script>
+  $("a[data-rel^=lightcase]").lightcase();
+</script>
   <!-- revolution-->
   <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
   <script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
@@ -598,6 +555,7 @@
   <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
   <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
   <script src="js/revolution/init.js"></script>
+
   <!-- JavaScript-->
   <script src="js/main.js"></script>
 </body>
