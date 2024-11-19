@@ -1507,7 +1507,7 @@ textarea.custom-input {
   overflow: hidden;
   display: inline-block;
   vertical-align: top;
-  padding: 7px 0 11px 15px;
+  padding: 7px 0 11px 0;
 }
 
 /* .logo::before {
@@ -2468,6 +2468,7 @@ textarea.custom-input {
 .header__inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 1830px;
   margin: 0 auto;
