@@ -7663,7 +7663,7 @@ textarea.custom-input {
   max-width: 1800px;
   margin-left: auto;
   margin-right: auto;
-  height: calc(100vh - 93px);
+  height: 100vh;
 }
 
 @media (min-width: 1920px) {
@@ -7736,7 +7736,7 @@ textarea.custom-input {
 }
 @media (min-width: 768px) {
   .main-slider {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
