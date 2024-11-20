@@ -7272,12 +7272,12 @@ textarea.custom-input {
 
 /* 4.26 Contact block */
 .contact-block {
-  max-width: 496px;
   background-color: #161616;
 }
 
 @media (min-width: 992px) {
   .contact-block {
+    max-width: 496px;
     padding: 80px;
   }
 }
@@ -7296,7 +7296,6 @@ textarea.custom-input {
 }
 
 .contact-block__address {
-  max-width: 370px;
   margin-bottom: 32px;
   font-size: 16px;
   line-height: 1.3125;
