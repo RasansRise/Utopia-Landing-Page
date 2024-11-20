@@ -7663,7 +7663,6 @@ textarea.custom-input {
   max-width: 1800px;
   margin-left: auto;
   margin-right: auto;
-  height: 100vh;
 }
 
 @media (min-width: 1920px) {
@@ -7675,6 +7674,7 @@ textarea.custom-input {
 .main-slider .tp-tabs {
   padding: 0 !important;
   background-color: #161616 !important;
+  display: none;
 }
 
 .main-slider .tp-tab {
@@ -7697,6 +7697,7 @@ textarea.custom-input {
   width: auto;
   height: auto;
   background-color: transparent;
+  
 }
 
 .main-slider .tparrows:hover {
@@ -7740,9 +7741,9 @@ textarea.custom-input {
   }
 }
 
-.main-slider .rev_slider_wrapper {
+/* .main-slider .rev_slider_wrapper {
   height: 100% !important;
-}
+} */
 
 .main-slider .rev_slider {
   height: 100% !important;
