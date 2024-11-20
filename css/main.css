@@ -394,7 +394,7 @@ ul.process__steps::before{
 }
 .slider-title.tp-caption.tp-resizeme .ar,.slider-title.tp-caption.tp-resizeme .ar span{
   font-size:60px !important;
-  line-height:75px !important;
+  line-height:90px !important;
 }
 
 @media (max-width:500px){
