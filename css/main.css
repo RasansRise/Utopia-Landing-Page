@@ -1508,7 +1508,6 @@ textarea.custom-input {
   overflow: hidden;
   display: inline-block;
   vertical-align: top;
-  padding: 7px 0 11px 0;
 }
 
 /* .logo::before {
@@ -2418,7 +2417,8 @@ textarea.custom-input {
 .header--fixed .header__inner {
   padding-top: 15px;
   padding-bottom: 15px;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: #161616;
 }
 
 @media (min-width: 1560px) {
@@ -2428,11 +2428,6 @@ textarea.custom-input {
   }
 }
 
-@media (min-width: 992px) {
-  .header--fixed .header__logo {
-    margin-right: calc(11.71vw + 25px);
-  }
-}
 
 .header--fixed .navigation__link {
   color: white;
@@ -2469,12 +2464,14 @@ textarea.custom-input {
 .header__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   max-width: 1830px;
   margin: 0 auto;
   padding: 15px;
-  background-color: #161616;
+  position: absolute !important;
+  z-index:5;
+  background-color: transparent ;
 }
 
 @media (min-width: 768px) {
@@ -2486,7 +2483,7 @@ textarea.custom-input {
 @media (min-width: 1560px) {
   .header__inner {
     position: relative;
-    padding: 50px 15px;
+    padding: 100px 30px;
   }
 }
 
@@ -2497,7 +2494,6 @@ textarea.custom-input {
 }
 
 .header__logo {
-  margin-right: 20px;
   flex-shrink: 1;
 }
 @media(max-width:500px){
@@ -7742,7 +7738,7 @@ textarea.custom-input {
 }
 @media (min-width: 768px) {
   .main-slider {
-    height: calc(100vh - 110px);
+    height: 100vh;
   }
 }
 
