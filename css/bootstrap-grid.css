@@ -2196,6 +2196,9 @@ html {
 .my-5 {
   margin-bottom: 3rem !important;
 }
+.mt-6{
+  margin-top:6rem !important;
+}
 
 .ml-5,
 .mx-5 {

@@ -374,6 +374,7 @@ ul.process__steps::before{
   font-family: Noto Kufi Arabic !important;
 	direction: rtl !important;
 	font-size: 18px;
+  line-height: 1.8;
 }
 
 .about-section h2{
@@ -1169,7 +1170,7 @@ textarea.custom-input {
   margin: 0;
   font-family:"Noto Kufi Arabic";
   font-size: 32px;
-  line-height: 1.25;
+  line-height: 1.625;
   color: white;
   font-weight: 700;
 }
